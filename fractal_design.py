@@ -4,30 +4,10 @@
  A Mandelbrot Set rendered with a custom color gradient, built for
  Design Lab 01 (Designing Using Fractals).
 
- Author:  <YOUR NAME HERE>
- Reg #:   <YOUR REGISTRATION NUMBER HERE>
+ Author:  Huzaifa Maqbool
+ Reg #: 556377
  Course:  BS(CS) — Design Lab 01
 
- HOW TO RUN ON GOOGLE COLAB
- --------------------------
- 1. Open https://colab.research.google.com and start a New Notebook.
- 2. Copy this ENTIRE file into a single code cell (or upload it and
-    run `!python fractal_design.py`).
- 3. Press Shift+Enter / click Run. No installs needed — numpy and
-    matplotlib both ship with Colab by default.
- 4. One file will be produced in the Colab file browser (left sidebar,
-    folder icon):
-        - cosmic_convergence.png   (the final fractal design)
-    Right-click it to download, or use the auto-download call at the
-    very bottom of this script (it only runs inside Colab).
-
- WHAT THIS SCRIPT DEMONSTRATES
- ------------------------------
- - Self-similarity & iteration: the Mandelbrot escape-time algorithm.
- - A custom, hand-built color gradient (not a built-in matplotlib cmap).
- - Smooth (continuous) coloring so the bands don't look stepped/banded.
- - Gamma correction to bring out fine boundary detail.
-================================================================================
 """
 
 import numpy as np
